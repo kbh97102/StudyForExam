@@ -14,4 +14,10 @@ public class Class_1 {
         age = 23;
         hasChild = false;
     }
+    public String getName(){
+        return name;
+    }
+    public int getAge(){
+        return age;
+    }
 }
