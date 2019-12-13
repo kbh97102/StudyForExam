@@ -1,6 +1,6 @@
 package test_1;
 
-public class Class_1 {
+public abstract class Class_1 {
     private static String job;
     private static String nationality;
     private static String sex;
