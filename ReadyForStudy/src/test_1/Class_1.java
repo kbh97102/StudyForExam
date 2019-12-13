@@ -1,6 +1,9 @@
-package test_1.createClass;
+package test_1;
 
 public class Class_1 {
+    private static String job;
+    private static double height;
+    private static double weight;
     private String name;
     private int age;
     private boolean hasChild;
