@@ -4,7 +4,6 @@
     <list default="true" id="adda9c5c-dcba-4c2f-a2ce-2cef49546df1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_1/Class_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_1/Class_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_1/Class_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_1/Class_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,10 +75,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576235540719" />
-    <state x="285" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1576236065608">
+    <state x="285" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1576237348553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="285" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576236065608" />
+    <state x="285" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576237348553" />
     <state x="275" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576235535271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -87,6 +87,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576232489306" />
+    <state width="916" height="284" key="GridCell.Tab.0.bottom" timestamp="1576237407358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576237407358" />
+    <state width="916" height="284" key="GridCell.Tab.0.center" timestamp="1576237407357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576237407357" />
+    <state width="916" height="284" key="GridCell.Tab.0.left" timestamp="1576237407357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576237407357" />
+    <state width="916" height="284" key="GridCell.Tab.0.right" timestamp="1576237407357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576237407357" />
     <state x="339" y="129" key="new project wizard" timestamp="1576232489446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
