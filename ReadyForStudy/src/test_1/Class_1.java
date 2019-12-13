@@ -29,4 +29,6 @@ public abstract class Class_1 {
     public static void wakeup(){
         System.out.println("Plz give me a 5 minute");
     }
+    abstract public void check1RM();
+    abstract public void dateWithLover();
 }
