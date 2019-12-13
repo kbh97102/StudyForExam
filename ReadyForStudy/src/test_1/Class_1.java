@@ -3,16 +3,21 @@ package test_1;
 public abstract class Class_1 {
     private static String job;
     private static String nationality;
-    private static String sex;
+    private final static boolean hasCouple = false;
     private String name;
     private int age;
     private boolean hasChild;
+
+    static{
+        job = "대학생";
+        nationality = "Korean";
+    }
     public Class_1(String name, int age, boolean hasChild){
         this.name = name;
         this.age = age;
         this.hasChild = hasChild;
     }
-    public Class_1(){
+    public Class_1() {
         name = "Defalut Name";
         age = 23;
         hasChild = false;
