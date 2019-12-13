@@ -2,8 +2,8 @@ package test_1;
 
 public class Class_1 {
     private static String job;
-    private static double height;
-    private static double weight;
+    private static String nationality;
+    private static String sex;
     private String name;
     private int age;
     private boolean hasChild;
@@ -22,5 +22,11 @@ public class Class_1 {
     }
     public int getAge(){
         return age;
+    }
+    public static void sleeping(){
+        System.out.println("zzz...");
+    }
+    public static void wakeup(){
+        System.out.println("Plz give me a 5 minute");
     }
 }
