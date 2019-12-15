@@ -36,4 +36,17 @@ public class DynamicArray<T>{
         dynamicArray = (T[])Array.newInstance(type,size*2);
         if (size >= 0) System.arraycopy(temp, 0, dynamicArray, 0, size);
     }
+
+    public void remove(int index){
+        try{
+            if(size > 0){
+                for(int i=index;i<size-1;i++){
+                    dynamicArray[i] = dynamicArray[i+1];
+                }
+                size--;
+            }
+        }catch(IndexOutOfBoundsException e1){
+            System.out.println("Can't remove, No data in Array");
+        }
+    }
 }
