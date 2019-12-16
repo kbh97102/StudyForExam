@@ -3,21 +3,23 @@ import array.DynamicArray;
 public class Main {
     public static void main(String[] args) {
         DynamicArray<Double> testArray = new DynamicArray<>(Double.class);
-        for(int i=0;i<10;i++){
+        System.out.println("Start");
+        long startTime = System.currentTimeMillis();
+        for(int i=0;i<100000;i++){
             testArray.put(i+0.5);
         }
-        testArray.extend();
-        System.out.println("size"+testArray.size());
-        testArray.put(55.5);
-        System.out.println("size"+testArray.size());
-        for(int i=0;i<testArray.size();i++){
-            System.out.println(testArray.get(i));
+//        for(int i=0;i<100000;i++){
+//            System.out.print(testArray.get(i) + " ");
+//            if (i % 10000 == 0) {
+//                System.out.println();
+//            }
+//        }
+        for(int i=0;i<100000;i++){
+            testArray.remove(i);
         }
-        testArray.remove(2);
+        long endTime = System.currentTimeMillis();
 
+        System.out.println("Running time : "+(endTime-startTime)/1000.0+"초");
 
-        for(int i=0;i<testArray.size();i++){
-            System.out.println(testArray.get(i));
-        }
     }
 }
