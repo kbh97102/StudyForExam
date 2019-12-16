@@ -15,7 +15,7 @@ public class Main {
 //            }
 //        }
         for(int i=0;i<100000;i++){
-            testArray.remove(i);
+            testArray.remove(i+0.5);
         }
         long endTime = System.currentTimeMillis();
 
